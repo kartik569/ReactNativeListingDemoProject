@@ -13,7 +13,7 @@ const LoginScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
     <ImageBackground
-        source={require('../assets/splashscreen.jpg')} // Ensure this path is correct
+        source={require('../assets/Iphone.jpg')} // Ensure this path is correct
         style={styles.background}>
       
       <Image source={require('../assets/appicon.png')} style={styles.logo} />
