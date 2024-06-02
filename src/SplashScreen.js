@@ -11,7 +11,7 @@ const SplashScreen = ({ navigation }) => {
   
     return (
       <ImageBackground
-        source={require('../assets/splashscreen.jpg')} // Ensure this path is correct
+        source={require('../assets/splashscreen.png')} // Ensure this path is correct
         style={styles.background}
       >
       
