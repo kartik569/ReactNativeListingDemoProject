@@ -7,7 +7,7 @@ import { Button } from 'react-native-elements';
 
 const ProfileScreen = ({ navigation }) => {
   const [fullName, setFullName] = useState('Kartik Choudhury');
-  const [gender, setGender] = useState('Male');
+  const [gender, setGender] = useState('male');
   const [dob, setDob] = useState(new Date());
   const [address, setAddress] = useState('');
   const [city, setCity] = useState('');
